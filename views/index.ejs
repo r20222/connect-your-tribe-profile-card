@@ -2,24 +2,109 @@
 
 <article>
 
-  <p class="eerst"><span><b>Ik ben 25</b></span></p>
-  <p class="eerst">😀</p>
-  <p class="eerst"><span><b>Mijn hobby is gitaar spelen</b></span></p>
-  <p class="eerst"><span><b>Ik ben veganist</b></span></p>
-  <p class="eerst" id="spaans"><span><b>In mijn vrije tijd<br> leer ik Spaans</b></span></p>
-  <p class="eerst uitleg">
-    <span>
-      <b>Ik ben Roelie en ik wil alles leren<br> over HTML, CSS en Javascript</b>
+<div class="avatar click">
+  <div class="avatar-inner">
 
-    </span>
-  </p>
+    <!-- front of the avatar flip -->
+    <div class="avatar-front">
+      <img class="avatar-img" src="<%= member.avatar %>" alt="Roelie's avatar"/>
+    </div>
 
-  <p class="tweede">25</p>
-  <p class="tweede">😀</p>
-  <p class="tweede">🎸</p>
-  <p class="tweede">🥕</p>
-  <p class="tweede">⛱</p>
-  <p class="tweede">&lt;&gt;</p>
+    <!-- back of avatar flip -->
+    <div class="avatar-back">
+      <h1>Roelie</h1>
+    </div>
+  </div>
+</div>
+
+
+<div class="flexbox-container">
+
+  <div class="guitar click">
+    <div class="guitar-inner">
+
+      <!-- front of the avatar flip -->
+      <div class="guitar-front">
+        <p class="emoji">🎸</p>
+      </div>
+
+      <!-- back of avatar flip -->
+      <div class="guitar-back">
+        <p>Mijn hobby is gitaar en basgitaar spelen.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="vegan click">
+    <div class="vegan-inner">
+
+      <!-- front of the avatar flip -->
+      <div class="vegan-front">
+        <p class="emoji">🥕</p>
+      </div>
+
+      <!-- back of avatar flip -->
+      <div class="vegan-back">
+        <p>Ik ben veganist.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="bio click">
+  <div class="bio-inner">
+
+    <!-- front of the flip -->
+    <div class="bio-front">
+      <p class="emoji-bio">&lt;&gt;</p>
+    </div>
+
+    <!-- back of  flip -->
+    <div class="bio-back">
+      <p><%= member.bio.html %></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="flexbox-container">
+
+
+  <div class="spain click">
+    <div class="spain-inner">
+
+      <!-- front of the avatar flip -->
+      <div class="spain-front">
+        <p class="emoji">⛱</p>
+      </div>
+
+      <!-- back of avatar flip -->
+      <div class="spain-back">
+        <p>In mijn vrije tijd leer ik Spaans en ga ik graag op vakantie naar Spanje.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="universe click">
+    <div class="universe-inner">
+
+      <!-- front of the avatar flip -->
+      <div class="universe-front">
+        <p class="emoji">🔭</p>
+      </div>
+
+      <!-- back of avatar flip -->
+      <div class="universe-back">
+        <p>Op een heldere avond vind ik het leuk om sterren en planeten te bekijken.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 </article>
 
