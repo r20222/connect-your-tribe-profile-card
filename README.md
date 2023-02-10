@@ -2,7 +2,7 @@
 
 # Visitekaartje
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-Bij dit project heb ik het visitekaartje van de eerste week omgezet in node.jsen ik heb voor het eerst Json gebruikt om informatie eruit weer te geven in mijn visitekaartje.
+Bij dit project heb ik het visitekaartje van de eerste week omgezet in node.js en ik heb voor het eerst Json gebruikt om informatie eruit weer te geven in mijn visitekaartje.
 
 
 ## Inhoudsopgave
