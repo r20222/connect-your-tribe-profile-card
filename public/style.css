@@ -78,6 +78,13 @@ body{
 .moon, .saturn, .mars, .telescope{
   display:none;
 }
+.moon::selection,.moon svg,.moon svg::selection, .moon:focus, .saturn:active, .mars:active, .moon{
+  background-color: transparent;
+  user-select: none;
+}
+.moon-text:active{
+  user-select:none;
+}
 .planets{
   width: 100vw;
   height:100vh;
@@ -172,6 +179,8 @@ transition-delay: 1s;
 }
 .mars svg{
   transition-duration: 1s;
+  width:100px;
+  height: 100px;
   position:relative;
   z-index: 1;
   cursor: pointer;
