@@ -134,6 +134,9 @@ transition-delay: 1s;
   transition-duration: 0.1s;
   color: #FEE3C0;
   font-weight:bold;
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 
