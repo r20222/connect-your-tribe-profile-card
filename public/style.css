@@ -97,6 +97,7 @@ body{
 .moon{
  position:relative;
  transition-duration:  1s;
+ top: 20px;
  left: 80px;
  cursor: pointer;
  z-index:1;
@@ -111,7 +112,7 @@ body{
   z-index: 1;
 }
 .zoom-moon{ 
-transform:scale(2.5) translateX(-33px) translateY(60px);; 
+transform:scale(2.5) translateX(-33px) translateY(70px);; 
 transition-delay: 1s;
 }
 .blur{
