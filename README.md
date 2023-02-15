@@ -2,7 +2,9 @@
 
 # Visitekaartje
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-Bij dit project heb ik het visitekaartje van de eerste week omgezet in node.js en ik heb voor het eerst Json gebruikt om informatie eruit weer te geven in mijn visitekaartje.
+Nieuwe visitekaartje: Ik heb mijn avatar omgezet in een SVG en daar een leuk verhaaltje aan gegeven waar je doorheen klikt waarna je planeten van dichtbij kan gaan bekekijken waarin je tekst kan lezen.
+
+Oude visitekaartje: Bij dit project heb ik het visitekaartje van de eerste week omgezet in node.js en ik heb voor het eerst Json gebruikt om informatie eruit weer te geven in mijn visitekaartje.
 
 
 ## Inhoudsopgave
@@ -16,12 +18,18 @@ Bij dit project heb ik het visitekaartje van de eerste week omgezet in node.js e
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Nieuwe visitekaartje: Op mijn visitekaartje krijg je eerst een uitleg van mijn avatar waarna je planeten van dichtbij kan kijken door erop te klikken. Als ze dichtbij te zien zijn kan je tekst lezen over wie ik ben en mijn hobbies.
 
-Op mijn visitekaartje zie je verschillende rondjes met een plaatje erin, als je erop drukt draait die om en kan je informatie lezen op de achterkant over mij.
+Oude visitekaartje: Op mijn visitekaartje zie je verschillende rondjes met een plaatje erin, als je erop drukt draait die om en kan je informatie lezen op de achterkant over mij.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 
-![image](https://user-images.githubusercontent.com/101579892/218068476-bb70da21-3ac3-4298-99be-020d9ee29c1d.png)
+Nieuwe visitekaartje: 
+![image](https://user-images.githubusercontent.com/101579892/219118319-05c2a028-650e-4d15-ba28-8f3128b80510.png)
+![image](https://user-images.githubusercontent.com/101579892/219118475-430d9b88-2cbd-411e-9c21-4a6750aaccf9.png)
+
+
+Oude visitekaartje: ![image](https://user-images.githubusercontent.com/101579892/218068476-bb70da21-3ac3-4298-99be-020d9ee29c1d.png)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
@@ -37,6 +45,7 @@ https://encouraging-sombrero-bass.cyclic.app/
 * Json
 * HTML
 * CSS
+* JavaScript (innerHTML, remove(), toggle, addEventListener)
 
 ## Installatie
 
